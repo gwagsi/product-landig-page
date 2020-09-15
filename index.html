@@ -14,17 +14,23 @@
         id="header-img"
       />
       <nav id="nav-bar">
-        <a href="" class="nav-link">Link1</a>
-        <a href="" class="nav-link">Link1</a>
-        <a href="" class="nav-link">Link1</a>
+        <a href="#product" class="nav-link">Product</a>
+        <a href="#videos" class="nav-link">Video</a>
+        <a href="#ewsletter" class="nav-link">Newsletter</a>
       </nav>
     </header>
+    <section id="product"></section>
+
     <div class="container">
-      <video src="./videoplayback.mp4" id="video" controls></video>
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" id="email" placeholder="email" required />
-        <input type="submit" id="submit" />
-      </form>
+      <section id="videos">
+        <video src="./videoplayback.mp4" id="video" controls autoplay></video>
+      </section>
+      <section id="newsletter">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input type="email" id="email" placeholder="email" required />
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </section>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
