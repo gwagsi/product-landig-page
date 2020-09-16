@@ -16,7 +16,7 @@
       <nav id="nav-bar">
         <a href="#product" class="nav-link">Product</a>
         <a href="#videos" class="nav-link">Video</a>
-        <a href="#ewsletter" class="nav-link">Newsletter</a>
+        <a href="#newsletter" class="nav-link">Newsletter</a>
       </nav>
     </header>
     <section id="product"></section>
@@ -26,8 +26,18 @@
         <video src="./videoplayback.mp4" id="video" controls autoplay></video>
       </section>
       <section id="newsletter">
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-          <input type="email" id="email" placeholder="email" required />
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          method="get"
+          id="form"
+        >
+          <input
+            type="email"
+            id="email"
+            placeholder="email"
+            name="email"
+            required
+          />
           <input type="submit" id="submit" value="Submit" />
         </form>
       </section>
